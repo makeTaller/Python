@@ -18,4 +18,3 @@ def main():
     print("The value in 10 years is: ", principal," and you will be:" userAge)
 
 main()
-:q
