@@ -1,6 +1,0 @@
-	#!/bin/bash
-tmux new-session -d  'w3m google.com'
-tmux split-window -v 'vifm'
-tmux split-window -h 
-##tmux new-window 'mutt'
-tmux -2 attach-session -d 
