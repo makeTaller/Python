@@ -16,7 +16,7 @@ def main():
     principal = eval(input("Enter the initial principal: "))
     apr = eval(input("Enter the annualized interest rate: "))
     # Get a graphics window with labels on left edge
-    win = GraphWin("Investment Growth Chart", 320,240)
+    win = GraphWin("Investment Growth Chart", 420,240)
     win.setBackground("white")
     Text(Point(20,230), ' 0.0K').draw(win)
     Text(Point(20,180), ' 2.5K').draw(win)
