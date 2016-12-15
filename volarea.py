@@ -3,9 +3,9 @@
 
 import math
 def main():
-    #vol = eval(input("Enter the Volume: "))
-    radius = eval(input("Enter the Radius: "))
-    #area = eval(input("Enter the Area: "))
+    #vol = eval(raw_input("Enter the Volume: "))
+    radius = eval(raw_input("Enter the Radius: "))
+    #area = eval(raw_input("Enter the Area: "))
 
     volume = 4/3 * math.pi * radius ** 3
     area = 4 * math.pi * radius ** 2

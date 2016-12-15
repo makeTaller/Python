@@ -13,8 +13,8 @@ def main():
     print("This program plots the growth of a 10-year investment.")
 
     #Get principal and interest rate
-    principal = eval(input("Enter the initial principal: "))
-    apr = eval(input("Enter the annualized interest rate: "))
+    principal = eval(raw_input("Enter the initial principal: "))
+    apr = eval(raw_input("Enter the annualized interest rate: "))
     # Get a graphics window with labels on left edge
     win = GraphWin("Investment Growth Chart", 420,240)
     win.setBackground("white")
@@ -42,7 +42,7 @@ def main():
         bar.setWidth(2)
         bar.draw(win)
 
-    input("Press <Enter> to quit")
+    raw_input("Press <Enter> to quit")
     win.close()
 
 main()

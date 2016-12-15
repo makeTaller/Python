@@ -5,7 +5,7 @@
 # Illustrates for loop with an accumulator
 
 def main():
-    n = eval(input("Please enter a whole number: "))
+    n = eval(raw_input("Please enter a whole number: "))
     fact = 1
     for factor in range(n,1,-1):
         fact = fact * factor
