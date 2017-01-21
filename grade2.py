@@ -1,23 +1,41 @@
-
 # CS Professor with a rate of 100 - 0
+# by: Kirk Tolliver
 
 def main():
     score = eval(input("Enter the score: "))
-    scorecard = []
-    grade=[A,B,C,D,F]
+    #scorecard = []
+    #scorecard = " "
+    #gradenum = []
+    grade = []
     
     # Get a score card of the number ranges
-    for i in range(50,101):
-        scorecard.append(i)
-    
-    A = scorecard[90:100]
-    B = scorecard[80:89]
-    C = scorecard[70:79]
-    D = scorecard[60:69]
-    F = scorecard[51:59]
+    #for i in range(0,101):
+        #scorecard.append(i)
+    #    num = str(i) + ","
+    #    scorecard += num
+        
+    #gradenum=scorecard.split(",")
 
+    for s in range(0,59):
+        grade.append("F")
+    for s in range(10):
+        grade.append("D")
+    for s in range(10):
+        grade.append("C")
+    for s in range(10):
+        grade.append("B")
+    for s in range(10):
+        grade.append("A")
+                     
+    '''for j in gradenum:
+        gradenum[0:59] = "F"
+        gradenum[60:69]= "D"
+        gradenum[70:79]= "C" 
+        gradenum[80:89]= "B"
+        gradenum[90:100]= "A"
+        '''
 
+    print(grade[score])
 
-    print(grade[0])
 
 main() 
