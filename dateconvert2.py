@@ -1,5 +1,5 @@
 
-# dateconver.py
+## dateconver.py
 ## Converts a date in form "mm/dd/yyyy" to "month, day, year"
 
 def main():
@@ -16,5 +16,5 @@ def main():
     monthStr = months[int(monthStr)-1]
 
     # output result in month day, year format
-    print("The converted date is:",type(monthStr), monthStr, dayStr + ",", yearStr)
+    print("The converted date is:{0} {1},{2}".format(monthStr, dayStr, yearStr))
 main()
