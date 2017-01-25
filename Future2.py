@@ -11,7 +11,6 @@ def main():
     apr = eval(input("Enter the Annual Percentage Rate: "))
     numYears = eval(input("Enter the number of Years: "))
     userAge = eval(input("Enter your Age: "))
-    
     period = apr /4
 
     print("Year | Value | Age ")

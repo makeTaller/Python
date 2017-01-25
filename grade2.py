@@ -7,13 +7,11 @@ def main():
     #scorecard = " "
     #gradenum = []
     grade = []
-    
     # Get a score card of the number ranges
     #for i in range(0,101):
         #scorecard.append(i)
     #    num = str(i) + ","
     #    scorecard += num
-        
     #gradenum=scorecard.split(",")
 
     for s in range(0,59):
@@ -26,16 +24,16 @@ def main():
         grade.append("B")
     for s in range(10):
         grade.append("A")
-                     
+
     '''for j in gradenum:
         gradenum[0:59] = "F"
         gradenum[60:69]= "D"
-        gradenum[70:79]= "C" 
+        gradenum[70:79]= "C"
         gradenum[80:89]= "B"
         gradenum[90:100]= "A"
         '''
 
-    print(grade[score])
+    print("You Got a:", grade[score])
 
 
-main() 
+main()
